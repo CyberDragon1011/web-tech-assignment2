@@ -24,7 +24,7 @@
             </header>
         </section>
         <section id="main">
-            <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post" id="form">
+           <form action="process_eoi.php" method="post" id="form">
                 <legend>Job Application Form</legend>
                 <fieldset>
                     <label for="Job_Ref_Number">Job Reference Number:</label>

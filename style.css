@@ -8,6 +8,23 @@
     text-align: left;
     padding: 0;
 }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header,
+#main,
+footer {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 .index .title {
     position: absolute;
@@ -270,11 +287,32 @@ figcaption {
 /*                      3. Apply Page                    */
 
 
+#main 
+   /* 3. Apply Page */
+
+#header,
+#main,
+footer {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 #main {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    padding: 30px 20px;
 }
+
+form {
+    width: 100%;
+    max-width: 700px;
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
 
 form {
     width: 90%;
